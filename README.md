@@ -21,7 +21,7 @@ $chmod +x addlevel.sh
 $sh ./addlevel.sh [levelname] [path_to_list_of_words]
 ```
 
-To unistall
+To uninstall
 ```
 $sudo make clean
 ```
