@@ -5,7 +5,6 @@
 #include<ctype.h>
 #include "Select.h"
 
-#define MAX_FILE "/home/wolfie/Hangman/Hangman/.max.txt"
 //MAXXX
 #define clear() printf("\033[H\033[J")
 

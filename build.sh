@@ -1,4 +1,6 @@
 #!/bin/bash
+brew install coreutils gnu-sed figlet
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 
 pw=`pwd`
 sed '/\/\/MAXXX/ i\#define MAX_FILE "'$pw'/.max.txt"' Hangman.c > tmp.c
